@@ -1,4 +1,3 @@
 "use strict";
-console.log(123);
-console.log('123');
-alert(eee);
+const PI = 3.14;
+let dlinaOkr = PI * 2 * 3;
