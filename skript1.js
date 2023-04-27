@@ -2,10 +2,7 @@
 	многострочный комментарий
 */
 "use strict";
-let num=123;
-let a = 1;
-let b = 2;
-let c = 3;
-let d, e, f;
-alert('Текст, котрый выводится на экран'); // однострочный коментарий
-alert(num);
+let a = 10;
+alert(a);
+a=20;
+alert(a);
