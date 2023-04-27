@@ -2,7 +2,5 @@
 	многострочный комментарий
 */
 "use strict";
-let a = 10;
-alert(a);
-a=20;
+let a = 1+2+3;
 alert(a);
