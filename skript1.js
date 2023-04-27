@@ -1,13 +1,6 @@
 "use strict";
-let a;
-alert(a);
-a = null;
-alert(a);
-a = true;
-alert(a);
-a = false;
-alert(a);
-let str1 = "abc" , str2 = "bca";
-alert (srt1 * str2);
-alert( 10 / 0); 
-alert(-10 / 0);
+let num = 343;
+console.log(num);
+let num1 = 123;
+let num2 = 456;
+console.log(num1, num2);
