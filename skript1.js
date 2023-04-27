@@ -1,3 +1,7 @@
 "use strict";
-let a = 1 , b = 2 , c = 3;
-alert(a + b + c);
+let a = 10 , b = 5 , c;
+c = a - b;
+let d = 7;
+let result;
+result = c + d;
+alert(result);
