@@ -1,8 +1,13 @@
 "use strict";
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa ${str1} bbb + ${str2}  ccc`;
-let str = `a
-b
-c
-`;
+let a;
+alert(a);
+a = null;
+alert(a);
+a = true;
+alert(a);
+a = false;
+alert(a);
+let str1 = "abc" , str2 = "bca";
+alert (srt1 * str2);
+alert( 10 / 0); 
+alert(-10 / 0);
