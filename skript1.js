@@ -1,2 +1,5 @@
 "use strict";
-alert(2 ** 10);
+let name = "Sahsa";
+let surname = "Smirnova";
+alert(name);
+alert(surname);
