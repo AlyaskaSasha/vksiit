@@ -1,21 +1,22 @@
 "use strict";
+let r = 3;
+let s = 3.14 * r ** 2;
+alert(s); 
 
-alert(24 * 60 * 60);
+let a = 3;
+s = a ** 2;
+alert(s);
 
-alert(30 * 24 * 60 * 60);
+a = 1 , b = 2;
+s = a * b;
+alert(s);
 
-alert(365 * 24 * 60 * 60);
+a = 3 , b = 4;
+let p = 2 * (a + b);
+alert(p);
 
-alert(24 * 60);
+let tc = 37;
+let tf = tc * 9/5 + 32;
 
-alert(24 * 60 * 365);
-
-alert(1024 * 1024);
-
-alert(1024 * 1024 * 1024);
-
-alert(10 * 1024 * 1024 * 1024);
-
-alert(1024 * 1024 * 1024 * 1024);
-
-alert(1024 * 1024 * 1024);
+tf = 35;
+tc = (tf - 32) * 5/9;
