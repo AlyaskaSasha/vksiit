@@ -1,13 +1,13 @@
 "use strict";
-alert('Ваш возраст: ' + prompt('Ваш возраст?'));
+document.write('Какой-нибудь текст');
 
-let num1 = prompt('Введите первое число');
-let num2 = prompt('Введите второе число');
-alert(+num1 + +num2);
+document.write('<i>Какой-нибудь текст</i>');
 
-let a = prompt('сторона квадрата?');
-alert("Площадь= " + a*a);
+let str = 'text';
+document.write('<i>' + str + '</i>');
 
-let b = prompt('первая сторона прямоугольника?');
-let c = prompt('вторая сторона прямоугольника?');
-alert("Периметр= " + (+b + +c)*2);
+document.write('1<br>');
+document.write('2<br>');
+document.write('3<br>');
+document.write('4<br>');
+document.write('5<br>');
