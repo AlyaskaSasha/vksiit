@@ -1,12 +1,5 @@
 "use strict";
 let str = 'abcde';
-
-alert(str[0]); // выведет 'a'
-alert(str[2]); // выведет 'c'
-alert(str[4]); // выведет 'e'
-
-let rts = str[4] + str[3] + str[2] + str[1] + str[0];
-alert(rts); 
-
-let num = 2;
-alert(str[num]);
+alert(str[str.length - 1]); // последний символ
+alert(str[str.length - 2]); // предпоследний
+alert(str[str.length - 3]); // предпредпоследний
