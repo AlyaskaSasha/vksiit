@@ -1,8 +1,9 @@
 "use strict";
-let a = '10';
-let b = '20';
-alert(Number(a) + Number(b));
+let a = parseFloat('5px');
+let b = parseFloat('6px');
+alert(a + b);
 
-let a = +'2';
-let b = +'3';
-alert(a + b); // выведет 5
+a = parseFloat('5.5px');
+b = parseFloat('6.25px');
+alert(a + b);
+alert(a + b + "px");
