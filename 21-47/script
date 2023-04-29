@@ -1,22 +1,9 @@
 "use strict";
-let r = 3;
-let s = 3.14 * r ** 2;
-alert(s); 
+let arr = [1, 2, 3];
+alert(arr);
+console.log(arr);
 
-let a = 3;
-s = a ** 2;
-alert(s);
 
-a = 1 , b = 2;
-s = a * b;
-alert(s);
-
-a = 3 , b = 4;
-let p = 2 * (a + b);
-alert(p);
-
-let tc = 37;
-let tf = tc * 9/5 + 32;
-
-tf = 35;
-tc = (tf - 32) * 5/9;
+arr = ['a', 'b', 'c'];
+alert(arr);
+console.log(arr);
