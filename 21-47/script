@@ -1,6 +1,13 @@
 "use strict";
-let num = 10;
-num++;
-num++;
-num--;
-alert(num);
+alert('Ваш возраст: ' + prompt('Ваш возраст?'));
+
+let num1 = prompt('Введите первое число');
+let num2 = prompt('Введите второе число');
+alert(+num1 + +num2);
+
+let a = prompt('сторона квадрата?');
+alert("Площадь= " + a*a);
+
+let b = prompt('первая сторона прямоугольника?');
+let c = prompt('вторая сторона прямоугольника?');
+alert("Периметр= " + (+b + +c)*2);
