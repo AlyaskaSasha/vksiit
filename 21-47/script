@@ -1,9 +1,12 @@
 "use strict";
-let num1 = 1231;
-let num2 = 2674;
-alert(String(num1) + String(num2));
+let str = 'abcde';
 
-let num = 12345785;
-alert(String(num).length);
+alert(str[0]); // выведет 'a'
+alert(str[2]); // выведет 'c'
+alert(str[4]); // выведет 'e'
 
-alert(String(num1).length + String(num2).length);
+let rts = str[4] + str[3] + str[2] + str[1] + str[0];
+alert(rts); 
+
+let num = 2;
+alert(str[num]);
